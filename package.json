@@ -1,7 +1,7 @@
 {
-  "name": "Delfyswap-core-contract",
-  "description": "Core contracts for the Delfyswap protocol",
-  "version": "1.0.1",
+  "name": "Delfyswap-core",
+  "description": "ore contracts for the Delfyswap protocol",
+  "version": "1.0.0",
   "homepage": "https://delfyfinance.org",
   "repository": {
     "type": "git",

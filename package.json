@@ -1,15 +1,19 @@
 {
-  "name": "Delfyswap-core",
-  "description": "ore contracts for the Delfyswap protocol",
-  "version": "1.0.0",
-  "homepage": "https://delfyfinance.org",
+  "name": "@delfyfinance/delfyswap-core",
+  "description": "core contracts for the Delfyswap protocol",
+  "version": "1.0.1",
+  "homepage": "https://delfyfinance.org/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Delfy/delfy-core"
+    "url": "https://github.com/Delfyfinance/delfyswap-core"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@delfyfinance/"
   },
   "keywords": [
     "delfy",
     "binance",
+    "binance smart chain",
     "bsc",
     "core",
     "delfyswap"

@@ -31,6 +31,11 @@ describe('DelfyFactory', () => {
     factory = fixture.factory
   })
 
+  it("gets init code hash", async()=>{
+    const iHash = await factory.INIT_CODE_PAIR_HASH()
+    console.log("HASH", iHash);
+  })
+
   it('feeTo, feeToSetter, allPairsLength', async () => {
     expect(await factory.feeTo()).to.eq(AddressZero)
     expect(await factory.feeToSetter()).to.eq(wallet.address)
@@ -62,6 +67,7 @@ describe('DelfyFactory', () => {
   })
 
   it('createPair:reverse', async () => {
+
     await createPair(TEST_ADDRESSES.slice().reverse() as [string, string])
   })
 
